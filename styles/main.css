@@ -1,0 +1,91 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-image: url("../images/back.png");
+	background-size: cover;
+}
+body  {
+	font-family: Capriola, Trebuchet MS, Times New Roman, sans-serif;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.2em;
+}
+h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+a {
+    font-weight: bold;
+    color: #6C3483;
+}
+a:link, a:visited { 
+    color: #6C3483; 
+}
+a:hover, a:focus { 
+    color: #D8A;
+}
+h3 {
+	font-size: 110%;
+	margin: .8em 0 .5em 0;
+	text-align: center;
+}
+h4{
+	margin-top: 10px;
+	margin-bottom: 6px;
+	font-size: 1.1em;
+}
+
+/* Header */
+header {
+	width: 55%;
+	float: right;
+	text-align: center;
+	line-height: 200%;
+	padding: 40px 20px 20px 20px;
+} 
+header h2 {
+	font-size: 230%;
+}
+
+/* Navigation */
+#nav_menu{
+	position: relative;
+	z-index: 1;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	align-items: center;
+}
+#nav_menu a{
+	display: block;
+	text-align: center;
+	padding: .7em 0;
+	text-decoration: none;
+	background-color: black;
+	color: #EBF5FB;
+}
+#nav_menu a.current{ color: #D8A; }
+#nav_menu a:focus, #nav_menu a:hover {
+	background-color: grey;
+}
+
+/* Sidebar */
+#left {
+	position: absolute;
+	float: left; 
+	padding-top: 10px;
+	width: 40%;
+}
+
+/* Section */
+section {
+	padding: 0px;
+}
+section img {
+	width: 100%;
+	padding-top: 20px;
+}
