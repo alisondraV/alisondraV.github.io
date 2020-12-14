@@ -52,7 +52,7 @@ header h2 {
 }
 
 /* Navigation */
-#nav_menu{
+.nav_menu{
 	position: relative;
 	z-index: 1;
 	margin: 0 auto;
@@ -60,7 +60,7 @@ header h2 {
 	grid-template-columns: repeat(3, auto);
 	align-items: center;
 }
-#nav_menu a{
+.nav_menu a{
 	display: block;
 	text-align: center;
 	padding: .7em 0;
@@ -68,13 +68,13 @@ header h2 {
 	background-color: black;
 	color: #EBF5FB;
 }
-#nav_menu a.current{ color: #D8A; }
-#nav_menu a:focus, #nav_menu a:hover {
+.nav_menu a.current{ color: #D8A; }
+.nav_menu a:focus, .nav_menu a:hover {
 	background-color: grey;
 }
 
 /* Sidebar */
-#left {
+.left {
 	position: absolute;
 	float: left; 
 	padding-top: 10px;
@@ -83,7 +83,7 @@ header h2 {
 
 /* Section */
 section {
-	padding: 0px;
+	padding: 0;
 }
 section img {
 	width: 100%;
